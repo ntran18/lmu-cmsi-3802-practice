@@ -1,0 +1,23 @@
+{
+  "name": "astroplusplus",
+  "version": "1.0.0",
+  "description": "A compiler for Astro++",
+  "type": "module",
+  "main": "astropp.js",
+  "scripts": {
+    "test": "c8 mocha"
+  },
+  "keywords": [
+    "compiler",
+    "ohm"
+  ],
+  "author": "rtoal",
+  "license": "MIT",
+  "devDependencies": {
+    "c8": "^9.1.0",
+    "mocha": "^10.2.0"
+  },
+  "dependencies": {
+    "ohm-js": "^17.1.0"
+  }
+}
